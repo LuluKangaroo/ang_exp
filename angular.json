@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang-exp"
+    }
+  },
+  "defaultProject": "ang-exp",
+  "cli": {
+    "analytics": false
+  }
 }
