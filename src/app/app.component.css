@@ -28,4 +28,6 @@
 
     padding: 50px;
     text-align: justify;
+
+    flex-grow: 1;
 }
