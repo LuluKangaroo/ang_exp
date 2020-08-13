@@ -3,20 +3,23 @@
     text-align: center;
     padding: 20px;
     margin: 40px 0;
+    
+    background: rgba(0, 0, 0, 0.5);
+    font-family: var(--headerfont);
 }
 
 .navigation a {
-    text-transform: uppercase;
-    text-decoration: none;
     margin: auto 10px;
+    text-transform: uppercase;
 }
 
 .brand {
     display: block;
     text-align: center;
-    width: 50px;
     margin: auto;
     border: solid 1px green;
+    font-family: var(--monofont);
+    text-transform: lowercase;
 }
 
 .pageContent {
@@ -30,4 +33,6 @@
     text-align: justify;
 
     flex-grow: 1;
+
+    background: rgba(0, 0, 0, 0.5);
 }

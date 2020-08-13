@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --monofont: ;
-    --headerfont: ;
-    --textfont: ;
+    --monofont: 'Anonymous Pro', monospace;
+    --headerfont: 'Playfair Display', serif;
+    --textfont: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -24,4 +24,20 @@ body {
 
     display: flex;
     flex-direction: column;
+
+    background: #222;
+
+    color: #ccc;
+    font-family: var(--textfont);
+    font-size: 1em;
+}
+
+a, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--headerfont);
+    text-transform: uppercase;
 }

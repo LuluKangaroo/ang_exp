@@ -1,0 +1,14 @@
+.socials {
+    border: solid 1px red;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.socials a {
+    display: block;
+    border: solid 1px green;
+    flex-basis: 20%;
+}
